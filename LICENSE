@@ -1,6 +1,13 @@
 Mozilla Public License Version 2.0
 ==================================
 
+applies to:
+  - ca-certificates.crt , Copyright (C) 2018 Mozilla.org
+
+applies to resources at:
+  - https://curl.haxx.se/docs/caextract.html , Copyright (C) 1996 - 2018, Daniel Stenberg,
+    daniel@haxx.se, and many contributors, see the THANKS file.
+
 1. Definitions
 --------------
 
