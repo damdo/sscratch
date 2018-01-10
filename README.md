@@ -1,5 +1,4 @@
 ## damdo/sscratch
-
 :key: **s**(ecure)**scratch** - the docker SCRATCH image with SSL ca-certificates
 
 ### FEATURES:
