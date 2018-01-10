@@ -9,12 +9,17 @@
 
 
 ### USAGE:
-In Dockerfile
+In your Dockerfile
 ```python
 FROM damdo/sscratch
 
 # do your awesome things here ...
 
+```
+
+### MANUAL BUILD:
+```sh
+docker build -f Dockerfile-build -t yourimagename .
 ```
 
 ### OTHER:
