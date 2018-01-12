@@ -1,0 +1,19 @@
+# A Travis CI configuration file.
+
+services:
+  - docker
+
+notifications:
+  email:
+    on_failure: always
+
+branches:
+  only:
+    - master
+
+script:
+  - docker build -t $DOCKER_NAME/sscratch .
+
+after_success:
+  - docker login -u="$DOCKER_NAME" -p="$DOCKER_PASSWORD"
+  - docker push $DOCKER_NAME/sscratch
