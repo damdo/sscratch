@@ -1,9 +1,13 @@
 ## damdo/sscratch
+
+[![Build Status](https://travis-ci.org/damdo/sscratch.svg?branch=master)](https://travis-ci.org/damdo/sscratch)
+
 :key: **s**(ecure)**scratch** - the docker SCRATCH image with SSL ca-certificates
 
 ### FEATURES:
  - `FROM scratch` + `ca-certificates.crt` (for SSL connections)
  - Optimized for Minimal Possible Size ~**236kB**
+ - **Continuous Integration and Deployment**: weekly image rebuild, test and push, with Travis CI
  - Easy to remember
 
 
